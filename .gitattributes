@@ -1,0 +1,21 @@
+# 统一行尾策略：入库 LF，检出按平台；避免补丁工具反复整文件改写行尾
+* text=auto
+*.go text eol=lf
+*.py text eol=lf
+*.html text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.sh text eol=lf
+*.mod text eol=lf
+*.sum text eol=lf
+*.md text eol=lf
+
+# 二进制产物
+*.wasm binary
+*.7z binary
+*.png binary
+*.jpg binary
+*.ttf binary
+*.woff binary
+*.woff2 binary

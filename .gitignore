@@ -1,0 +1,23 @@
+# 合约构建产物（源码为准，产物可重新编译，不入库）
+contract_name
+contract_name_new
+*.7z
+*.wasm
+
+# 备份文件
+*.bak
+*.bak_*
+*.bak-*
+*.dynamic.bak
+
+# 编译中间/静态解包目录
+access_control_static/
+vendor/
+
+# Go 构建缓存
+*.o
+*.a
+
+# 顶层裸 ELF 二进制（Go 编译产物，无扩展名）
+/access_control
+/access_control_static
